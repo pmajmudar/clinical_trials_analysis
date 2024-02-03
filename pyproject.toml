@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "clinical-trials-analysis"
+version = "0.1.0"
+description = "Clinicial Trials Data projects"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.0"
+biopython = "^1.83"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
